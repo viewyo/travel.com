@@ -1,0 +1,76 @@
+/* 
+*@fileName：base.css
+*@author:ChenShiyu
+*@createTime:2015/10/10
+*@功能表述：重置默认样式、样式分离
+*/
+/*********************样式重置*********************/
+html, body {font-family: "Microsoft YaHei";}
+*{box-sizing: border-box;}
+body,html,dl,dt,dd,ul,ol,h1,h2,h3,h4,h5,h6,form,p,th,td,input{margin:0;padding:0;}
+table{border-collapse:collapse; border-spacing:0;}
+body,button,input,select,textarea{font-family: "Microsoft YaHei";}img{border:none;}
+address,caption,cite,code,dfn,em,var,i{font-style:normal; font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%; font-weight:normal;}
+.cb{*zoom:1;}.cb:after{ content:'';display:block; height:0; visibility:hidden; line-height:0; clear:both;}
+a:hover{color:#06b421;}
+input::-ms-clear{display:none !important;}
+/*********************通用样式库*********************/
+.tl{text-align:left;} .tc{text-align:center;} .tr{text-align:right;} .bc{margin-left:auto; margin-right:auto;} .fl{float:left;}.fr{float:right;} 
+.pa{position:absolute;} .pr{position:relative;} .hide{display:none;}
+ 
+/* 边距 */
+.m5{margin:5px;} .m10{margin:10px;} .m15{margin:15px;} .m20{margin:20px;}
+.p5{padding:5px;} .p10{padding:10px;} .p15{padding:15px;} .p20{padding:20px;}
+.mt5{margin-top:5px;} .mt10{margin-top:10px;} .mt15{margin-top:15px;} .mt20{margin-top:20px;} .mt25{margin-top:25px;}.mt30{margin-top:30px;}
+.mr5{margin-right:5px;} .mr10{margin-right:10px;} .mr15{margin-right:15px;} .mr20{margin-right:20px;} .mr35{margin-right:35px;}
+.mb5{margin-bottom:5px;} .mb10{margin-bottom:10px;} .mb15{margin-bottom:15px;} .mb20{margin-bottom:20px;} 
+.ml5{margin-left:5px;} .ml10{margin-left:10px;} .ml15{margin-left:15px;} .ml20{margin-left:20px;} .ml_20{margin-left:-20px;}.ml30{margin-left:30px;}.ml40{margin-left:40px;}.ml50{margin-left:50px;}.ml60{margin-left: 60px;}
+.pt5{padding-top:5px;} .pt10{padding-top:10px;} .pt15{padding-top:15px;} .pt20{padding-top:20px;} .pt30{padding-top:30px;} 
+.pr5{padding-right:5px;} .pr10{padding-right:10px;} .pr15{padding-right:15px;} .pr20{padding-right:20px;}
+.pb5{padding-bottom:5px;} .pb10{padding-bottom:10px;} .pb15{padding-bottom:15px;} .pb20{padding-bottom:20px;} 
+.pl5{padding-left:5px;} .pl10{padding-left:10px;} .pl15{padding-left:15px;} .pl20{padding-left:20px;}
+a{ text-decoration:none;}
+/* 文字 */
+.f12{font-size:12px;} .f14{font-size:14px;} .f16{font-size:16px;} .f18{font-size: 18px;} .f22{font-size:22px;} .f24{font-size: 24px;} .f30{font-size: 30px;} 
+.t_underline{text-decoration:underline;}
+.bold{font-weight:bold;} 
+.yahei{font-family: "Microsoft Yahei";}
+.lh20{line-height:20px;} .lh30{line-height:30px;} .lh24{line-height: 24px;}
+/*其他*/
+.w_1_kpx{ width:1000px;}
+.bg_1{ background-color:#f0efeb}.bg_f{ background-color:#fff;}
+.in_block{ display:inline-block; vertical-align:top; *display:inline; *zoom:1;}
+.nbm{ margin-bottom:0 !important;}.nbb{ border-bottom:none !important;}
+.tac{text-align: center;}
+.clr_333{color:#333;}
+.clr_666{color:#666;}
+.clr_999{color:#999;}
+.fs10{font-size: 10px;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs22{font-size: 22px;}
+.fs24{font-size: 24px;}
+.fs28{font-size: 28px;}
+/*btn*/
+.btn{display: inline-block;width:82px;height:28px;line-height: 28px;text-align:center;font-size:14px;color:#fff;}
+.btn-green{background-color: #49c245;}
+.btn-orange{background-color: #dd3730;}
+.btn-green:hover{background-color: #49e03f;color:#fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;}
+.btn-orange:hover{background-color: #dd1b24;color:#fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;}
+.arrow{font-family: SimSun;}
+.itemTitle{width:100%;height:20px;line-height: 20px;margin: 20px 0;padding-left: 10px;
+    color:#333;font-size:20px;font-weight:bold;border-left:5px solid #dd3730;float: left;}

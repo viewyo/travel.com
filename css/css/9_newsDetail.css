@@ -1,0 +1,10 @@
+/*newsContent*/
+
+#content .newsBox{width:980px;min-height:560px;margin:30px 110px 60px 110px;float:left;}
+#content .newsBox .titleBox{width:100%;height:90px;border-bottom:1px solid #e7e7e7;position:relative;}
+#content .newsBox .titleBox>h2{height:40px;line-height:40px;}
+#content .newsBox .titleBox>p{height:50px;line-height:50px;color:#999;}
+#content .newsDetail{width:100%;float:left;}
+#content .newsDetail .img{width:980px;height:400px;}
+#content .newsDetail p{line-height:28px;margin-top:15px;font-size:16px;color:#555;text-indent: 32px;}
+#content .newsDetail .end{width:100%;float:left;padding-top:20px;font-size:24px;}

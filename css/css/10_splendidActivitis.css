@@ -1,0 +1,29 @@
+/*.splendidActivitis*/
+
+/*轮播*/
+#banner {width:100%;height:440px;overflow:hidden;position:relative;}
+#banner .bannerList{width:400%;max-height:440px;position:relative;float:left;}
+#banner .bannerList li{width:25%;max-height:440px;float:left;}
+#banner .bannerList li img{width:100%;max-height:440px;}
+
+.flexslider{margin:0 auto;position:relative;width:1200px;height:440px;overflow:hidden;zoom:1;}
+#banner .flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+#banner .flexslider .slides{zoom:1;}
+#banner .flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center;}
+#banner .flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
+#banner .flex-control-paging li a{display:block;width:14px;height:14px;overflow:hidden;text-indent:-99em;cursor:pointer;background:url(../images/slide_btn.png) 0 0 no-repeat;}
+#banner .flex-control-paging li a.flex-active,.flex-control-paging li a:hover{background:url(../images/slide_btn.png) -28px 0 no-repeat;}
+#banner .mask{width:566px;height:154px;position: absolute;top:108px;right:30px;background: url(../images/mask_01.png) no-repeat;z-index: 99;color:#fff;padding:20px;}
+#banner .mask .intro{font-size:14px;line-height: 25px;margin-top: 10px;}
+
+.activityCont{width:100%;margin-bottom:30px;float:left;}
+    .floorUl>li{width:100%;height:500px;}
+    .floorUl>li .titleBox{width:100%;height:60px;padding:30px 0 0 0;}
+    .floorUl>li .titleBox .topic{display: inline-block;width:100px;height:30px;line-height: 30px;padding-left:10px;border-left:5px solid #08c24e;}
+    .floorUl>li .itemUl{width:100%;height:440px;}
+    .itemUl>li{width:280px;height:200px;margin-top: 20px;margin-right: 20px;float: left;position: relative;overflow: hidden;}
+    .itemUl>li.lg{width:300px;height:420px;}
+    .itemUl>li .mask{width:280px;height:220px;padding:6px 14px;background:rgba(0,0,0, .5);color:#fff;position: absolute;top:160px;cursor:pointer;}
+    .itemUl>li .mask p{line-height:25px;font-size: 14px;}
+    .itemUl>li .mask .topic{line-height:30px;font-size: 16px;}
+

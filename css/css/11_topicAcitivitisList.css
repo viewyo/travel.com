@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import "base.css";
+@import "common.css";
+@import "../js/my97/skin/default/datepicker.css";
+
+/*.ListContent*/
+
+#content .ListContent{width:100%;}
+    .ListContent .hdTitle{width:100%;height:30px;line-height: 30px;padding-left: 15px;border-left:5px solid #08c24e;float: left;}
+    .ListContent .searchBox{width:100%;height:48px;line-height: 48px;color:#666;padding-left:15px;margin:15px 0;
+        background-color#ebecee;float: left;}
+    .searchBox input{width:160px;height:28px;line-height: 28px;padding:0 20px 0 5px;color:#666;border:1px solid #b3b4b6;
+        outline:none;background:url(../images/icon_date.png) 138px 6px no-repeat;}
+    .searchBox input:focus{border-color:#49c245;}
+
+    .listCont{width:100%;float:left;}
+    .activitisList li{width:100%;height:180px;padding-bottom:20px;}
+    .activitisList li>div{
+        display: inline-block;float: left;}
+    .activitisList li .img{width:270px;height:180px;padding-right:30px;}
+    .activitisList li .introBox{width:930px;height:160px;color:#333;}
+    .activitisList li .introBox .topic{width:100%;height:28px;line-height:28px;font-size: 20px;margin-top: 5px;}
+    .activitisList li .introBox .topic a{color:#333;}
+    .activitisList li .introBox .detail{width:100%;height:65px;margin:15px 0;padding:5px 10px 0 0;line-height:28px;font-size: 16px;color:#656565;
+        position:relative;overflow: hidden;
+        /*white-space: nowrap;-ms-text-overflow: ellipsis;text-overflow: ellipsis;*/}
+    .activitisList li .introBox .detail::after{content:'...';color:#656565;display: inline-block;position: absolute;bottom:0;right:0;padding-left: 20px;}
+    .activitisList li .introBox .detail a{color:#656565;}
+    .activitisList li .introBox .detail a:hover{color:#06b421;}
+    .activitisList li .introBox .contact a{color:#333;text-decoration:underline;}
+    .activitisList li .introBox .contact a:hover{color:#06b421;}
