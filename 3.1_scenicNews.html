@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>南龛动态</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/3.1_newsDetail.css">
+    <link rel="stylesheet" type="text/css" href="css/3.1_scenicNews.css">
     <script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body>
@@ -27,9 +27,9 @@
             <div class="topnav">
                 <ul class="navMenu">
                     <li><a href="index.html">首页</a></li>
-                    <li class="view"><a href="">景点一览</a></li>
-                    <li class="index"><a href="">南龛动态</a></li>
-                    <li><a href="">视频▪美图</a></li>
+                    <li><a href="2_scenicGuide.html">景点一览</a></li>
+                    <li class="index"><a href="3.1_scenicNews.html">南龛动态</a></li>
+                    <li><a href="4.1_imageAndVideo.html">视频▪美图</a></li>
                     <li><a href="">精彩游记</a></li>
                     <li><a href="">游玩贴士</a></li>
                     <li><a href="">帮助中心</a></li>
@@ -247,7 +247,7 @@
                             <ul>
                                 <li class="sure_Btn">确定</li>
                                 <li class="cur_Input">到
-                                    <input class="num_Btn">
+                                    <input>
                                     页
                                 </li>
                                 <li class="next_Btn">&nbsp &nbsp下一页&nbsp▶&nbsp&nbsp</li>
@@ -268,13 +268,13 @@
                         <ul class="news_list">
                             <li>
                                 <a  class="news" href="#">
-                                    <span class="pl">省文化厅王琼一行深入南龛文化产业园调研文化工作</span>
+                                    <span class="pl">市南管委：组织干部职工积极参加城乡环境综合治理工作</span>
                                     <span class="p2">2020-02-15</span>
                                 </a>
                             </li>
                             <li>
                                 <a  class="news" href="#">
-                                    <span class="pl">市南管委：组织干部职工积极参加城乡环境综合治理工作</span>
+                                    <span class="pl">省文化厅王琼一行深入南龛文化产业园调研文化工作</span>
                                     <span class="p2">2020-02-15</span>
                                 </a>
                             </li>
@@ -298,13 +298,13 @@
                             </li>
                             <li>
                                 <a  class="news" href="#">
-                                    <span class="pl">市南管委：组织干部职工积极参加城乡环境综合治理工作</span>
+                                    <span class="pl">省文化厅王琼一行深入南龛文化产业园调研文化工作</span>
                                     <span class="p2">2020-02-15</span>
                                 </a>
                             </li>
                             <li>
                                 <a  class="news" href="#">
-                                    <span class="pl">省文化厅王琼一行深入南龛文化产业园调研文化工作</span>
+                                    <span class="pl">市南管委：组织干部职工积极参加城乡环境综合治理工作</span>
                                     <span class="p2">2020-02-15</span>
                                 </a>
                             </li>
@@ -354,6 +354,7 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="tabBox" style="display: none;">
                         <!--新闻列表-->
                         <ul class="news_list">
@@ -449,10 +450,20 @@
             </div>
         </div>
     </div>
+    <!--页脚-->
+    <div class="footer" >
+        <p class="p1">友情链接：<a href="">多彩四川</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">蜂窝网</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">驴妈妈</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">去哪儿网</a></p>
+        <p >Copyright &copy;:2015-2016 <a href="">WWW.BZSNGW.COM</a> & <a href="">WWW.BZSMGW.CN</a> INCORPORATED. ALLRGIGHTS RESERVED.蜀ICP备15033143号</p>
+        <p>版权所有：巴中市南龛文化产业园管理委员会&nbsp;&nbsp;主办单位：巴中市南龛文化产业园管理委员会</p>
+        <p>联系电话：0827-2630435&nbsp;&nbsp;联系电邮：<a href="">cnngw@126.com</a></p>
+    </div>
 <script type="text/javascript">
+    $('.nav_tab li').on('click',function(){
+        var i = $(this).index();
+        $(this).addClass('current').siblings().removeClass('current');
+        $('.right_win').find('.tabBox').eq(i).show().siblings().hide();
 
+    });
 </script>
-
-
 </body>
 </html>

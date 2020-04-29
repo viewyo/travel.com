@@ -1,0 +1,396 @@
+/* 顶部 */
+.index .top{
+    width: 100%;
+    height:120px;
+}
+
+.top .header{
+    width: 1200px;
+    height:120px;
+    margin: 5px auto;
+    z-index: 100;
+}
+
+.top .header>div{
+    display: inline-block;
+    float: left;
+}
+
+.top .header .logo{
+    width:300px;
+    height:120px;
+}
+
+/* 搜索框 */
+.top .header .search{
+    width: 900px;
+    height:68px;
+    padding-top: 16px;
+}
+
+.top .search .searchBox{
+    width: 350px;
+    height: 32px;
+    position: relative;
+    padding: 0 35px 0 5px;
+    overflow:hidden;float: right;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+}
+
+.search .searchBox .put{
+    border: 1px solid #dd3730;
+    display: flex;
+    width:270px;
+    height:30px;
+    float: left;
+    outline:none;
+    padding: 0 25px 0 5px;
+}
+
+#search{
+    display: inline-block;
+    color: #fcfffa;
+    font-size: 13px;
+    width: 75px;height: 32px;
+    float: right;
+    background:#dd3730;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    right:19px;
+}
+
+/*登陆注册*/
+.searchBox #search:hover{
+    background-color:#cd150d;
+}
+
+.search .loginBox{
+    height:45px;
+    margin-top:6px;
+    float:right;
+    position: relative;
+}
+.search .loginBox a{
+    padding:0 12px 0 8px;
+    color:#666;
+    font-size: 13px;
+}
+
+.search .loginBox a:hover{
+    color:#dd3730;
+    text-decoration:underline;
+}
+
+/* 导航条 */
+.topnav {
+    overflow: hidden;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.topnav a
+{
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 5px 21px;
+}
+.topnav a:hover {
+    background-color: #cd150d;
+    color: #fcfffa;
+}
+
+.topnav .navMenu .index{
+    background-color:#cd150d;
+}
+
+.topnav .navMenu .index a{
+    color: #fcfffa;
+}
+
+.topnav .navMenu{
+    height:36px;
+    line-height:28px;
+    float:left;
+    position:relative;
+    z-index:150;
+}
+
+.topnav .navMenu li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*导航图*/
+.swiper-slide{
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+.swiper-slide a{
+    position:relative;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.swiper-slide a img{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.swiper-slide .introduce{
+    display: inline-block;
+    width: 458px;
+    height: 180px;
+    padding: 10px;
+    position: absolute;
+    right: 18%;
+    top: 100px;
+    background: url(../images/slide_mask.png) repeat;
+    color: #fff;
+}
+
+.swiper-slide .introduce .inner{
+    width: 95%;
+    height: 88%;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.swiper-slide .introduce .inner h2 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.swiper-slide .introduce .inner p{
+    width: 100%;
+    margin: 15px 0 0 10px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.content{
+    width: 100%;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 50;
+    background-color: #fff;
+    float: left;
+}
+
+.content .main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content .main .navigation{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    float: left;
+}
+
+.content .main .navigation li{
+    float: left;
+    color: #666;;
+}
+
+.content .main .navigation li a{
+    color: #666;;
+}
+
+.content .main .navigation .view_nav{
+    color: #dd3730;
+}
+
+.content .main .navigation li a:hover{
+    text-decoration:underline;
+}
+
+.navigation li span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main_title{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+    padding-left: 10px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 5px solid #dd3730;
+    float: left;
+}
+
+.main .viewBox {
+    width: 100%;
+    float: left;
+}
+
+.viewBox .left_nav{
+    width: 240px;
+    float: left;
+}
+
+.viewBox .left_nav .nav_tab{
+    border: 1px solid #e3e3e3;
+}
+
+.left_nav .nav_tab li {
+    height: 48px;
+    display: inline-block;
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 48px;
+    width: 100%;
+    color: #666666;
+}
+
+.left_nav .nav_tab li a{
+    color: #666666;
+    display: block;
+    padding-left: 24px;
+}
+
+.left_nav .nav_tab .current{
+    background: #dd3730;
+}
+
+.left_nav .nav_tab .current a{
+    color: #ffffff;
+}
+
+.viewBox .right_win {
+    width: 936px;
+    margin-left: 264px;
+
+}
+
+.pv_list li{
+    width: 288px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.pv_list li .po_title{
+    width: 288px;
+    height: 200px;
+    display: inline-block;
+    background: url(../images/shadowbg2.png) no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 28px;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+}
+
+.pv_list li a img{
+    cursor: pointer;
+    transition-duration:1s;
+}
+
+.pv_list li a:hover img{
+    transition-timing-function:ease-out;
+    transform: scale(1.1);
+}
+
+/*换页功能*/
+.right_win .pageControl{
+    width: 90%;
+    height: 40px;
+    float: left;
+    padding: 40px;
+}
+
+.right_win .pageControl ul {
+    width: 100%;
+    height: 40px;
+    float: right;
+}
+
+.pageControl ul li{
+    float: right;
+    color: #666;
+    margin-left: 6px;
+    min-width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.pageControl .cur_Btn{
+    color: #FFFFFF;
+    background-color: #dd3730;
+}
+
+.pageControl .sure_Btn:hover {
+    background-color: #dd3730;
+    color: #FFFFFF;
+}
+
+.pageControl li:hover:not(.cur_Input){
+    color: #FFFFFF;
+    background-color: #dd3730;
+}
+
+.pageControl .cur_Input{
+    border: none;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+.pageControl .cur_Input input{
+    height: 34px;
+    width: 50px;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+}
+
+/*页脚*/
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 35px 0;
+    float: left;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    line-height:25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #666;
+}
+
+.footer p a:hover{
+    color:#dd3730;
+    text-decoration: underline;
+}

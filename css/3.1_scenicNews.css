@@ -22,7 +22,12 @@
 }
 
 /* 搜索框 */
-.top .header .search{width: 900px;height:68px;padding-top: 16px;}
+.top .header .search{
+    width: 900px;
+    height:68px;
+    padding-top: 16px;
+}
+
 .top .search .searchBox{
     width: 350px;height: 32px;
     position: relative;
@@ -30,12 +35,16 @@
     overflow:hidden;float: right;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
-    border-radius:2px;}
+    border-radius:2px;
+}
+
 .search .searchBox .put{
     border: 1px solid #dd3730;
-    display: flex;width:270px;height:30px;float: left;
+    display: flex;width:270px;
+    height:30px;float: left;
     padding: 0 25px 0 5px;
 }
+
 #search{
     display: inline-block;
     color: #fcfffa;
@@ -48,6 +57,7 @@
     position: absolute;
     right:19px;
 }
+
 /*登陆注册*/
 .searchBox #search:hover{
     background-color:#cd150d;
@@ -155,6 +165,7 @@
     width: 100%;
     text-align: center;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .swiper-slide .introduce .inner p{
@@ -196,6 +207,7 @@
 .content .main .navigation li a{
     color: #666;;
 }
+
 .content .main .navigation .view_nav{
     color: #dd3730;
 }
@@ -207,15 +219,6 @@
 .navigation li span{
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.content {
-    width: 100%;
-    padding-bottom: 30px;
-    position: relative;
-    z-index: 50;
-    background-color: #fff;
-    float: left;
 }
 
 .main_title{
@@ -348,9 +351,35 @@
 
 }
 
-.pageControl .cur_Input .num_Btn{
+.pageControl .cur_Input input{
     height: 34px;
     width: 50px;
     border: 1px solid #cccccc;
     outline: none;
+    font-size: 16px;
+}
+
+/*页脚*/
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 35px 0;
+    float: left;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    line-height:25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #666;
+}
+
+.footer p a:hover{
+    color:#dd3730;
+    text-decoration: underline;
 }

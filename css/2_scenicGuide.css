@@ -148,6 +148,7 @@ b {
     width: 100%;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
 }
     
 .swiper-slide .introduce .inner p{
