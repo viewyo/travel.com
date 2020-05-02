@@ -29,8 +29,7 @@
 }
 
 .top .search .searchBox{
-    width: 350px;
-    height: 32px;
+    width: 350px;height: 32px;
     position: relative;
     padding: 0 35px 0 5px;
     overflow:hidden;float: right;
@@ -41,11 +40,8 @@
 
 .search .searchBox .put{
     border: 1px solid #dd3730;
-    display: flex;
-    width:270px;
-    height:30px;
-    float: left;
-    outline:none;
+    display: flex;width:270px;
+    height:30px;float: left;
     padding: 0 25px 0 5px;
 }
 
@@ -123,6 +119,7 @@
     display: inline-block;
     font-size: 16px;
 }
+
 
 /*导航图*/
 .swiper-slide{
@@ -258,10 +255,6 @@
     color: #666666;
 }
 
-.nav_tab li:last-child{
-    border-bottom: none;
-}
-
 .left_nav .nav_tab li a{
     color: #666666;
     display: block;
@@ -276,151 +269,26 @@
     color: #ffffff;
 }
 
+/*内容区右边*/
 .viewBox .right_win {
-    width: 936px;
+    width: 900px;
+    padding: 20px;
     margin-left: 264px;
-
+    border: 1px solid #e3e3e3;
 }
 
-.pv_list li{
-    width: 288px;
-    height: 200px;
-    display: inline-block;
-    margin-right: 20px;
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-    border-radius: 8px;
+.right_win .tableBox {
+    padding: 0 40px;
 }
 
-.pv_list li .po_title{
-    width: 288px;
-    height: 200px;
-    display: inline-block;
-    background: url(../images/shadowbg2.png) no-repeat;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 28px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-}
-
-.pv_list2 li .po_title{
-    background: none;
-}
-
-.pv_list li a img{
-    cursor: pointer;
-    transition-duration:1s;
-}
-
-.pv_list li a:hover img{
-    transition-timing-function:ease-out;
-    transform: scale(1.1);
-}
-
-
-.pv_list2 li .play {
-    background: url(../images/play.png) no-repeat;
-    width: 72px;
-    height: 72px;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    margin-left: -36px;
-    top: 60px;
-    cursor: pointer;
-}
-
-.pv_list2 .shadow{
-    box-sizing: border-box;
-    background: url(../images/shadowbg.png);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 38px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding:0 10px;
-    text-align: left;
-}
-
-.pv_list2 .shadow span{
-    float: right;
-    margin-left: 7px;
-    font-size: 16px;
-}
-
-.shadow .eye{
-    background: url(../images/icon.png) 0 -65px no-repeat;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-    margin: 4px -2px -4px 0;
-}
-
-.shadow .talk{
-    background: url(../images/icon.png) -24px -66px no-repeat;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-    margin: 4px -2px -4px 0;
-}
-/*换页功能*/
-.right_win .pageControl{
-    width: 90%;
-    height: 40px;
-    float: left;
-    padding: 40px;
-}
-
-.right_win .pageControl ul {
-    width: 100%;
-    height: 40px;
-    float: right;
-}
-
-.pageControl ul li{
-    float: right;
-    color: #666;
-    margin-left: 6px;
-    min-width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    border: 1px solid #cccccc;
-}
-
-.pageControl .cur_Btn{
-    color: #FFFFFF;
-    background-color: #dd3730;
-}
-
-.pageControl .sure_Btn:hover {
-    background-color: #dd3730;
-    color: #FFFFFF;
-}
-
-.pageControl li:hover:not(.cur_Input){
-    color: #FFFFFF;
-    background-color: #dd3730;
-}
-
-.pageControl .cur_Input{
-    border: none;
-    font-size: 16px;
-    line-height: 31px;
-}
-
-.pageControl .cur_Input input{
-    height: 34px;
-    width: 50px;
-    border: 1px solid #cccccc;
-    outline: none;
-    font-size: 16px;
+.tabBox th a {
+     display: block;
+     width: 110px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     color: #ffffff;
+     background: url(../images/weather_title.png) no-repeat;
 }
 
 /*页脚*/

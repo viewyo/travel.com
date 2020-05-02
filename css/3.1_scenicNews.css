@@ -83,7 +83,6 @@
 /* 导航条 */
 .topnav {
     overflow: hidden;
-    margin-top: -15px;
     margin-left: 15px;
 }
 
@@ -144,18 +143,17 @@
 .swiper-slide .introduce{
     display: inline-block;
     width: 458px;
-    height: 180px;
+    height: 205px;
     padding: 10px;
     position: absolute;
     right: 18%;
-    top: 100px;
+    top: 110px;
     background: url(../images/slide_mask.png) repeat;
     color: #fff;
 }
 
 .swiper-slide .introduce .inner{
-    width: 95%;
-    height: 88%;
+    height: 100%;
     padding: 10px;
     border: 1px solid #FFFFFF;
 }
@@ -170,7 +168,7 @@
 
 .swiper-slide .introduce .inner p{
     width: 100%;
-    margin: 15px 0 0 10px;
+    margin: 15px 0 30px 10px;
     text-align: left;
     font-size: 22px;
     line-height: 35px;

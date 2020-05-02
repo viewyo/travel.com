@@ -124,6 +124,7 @@
     font-size: 16px;
 }
 
+
 /*导航图*/
 .swiper-slide{
     width: 100%;
@@ -235,6 +236,23 @@
     float: left;
 }
 
+.main_title .write_btn{
+    border: none;
+    float: right;
+    width: 80px;
+    line-height: 30px;
+    background: #dd3730;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.main_title .write_btn:hover{
+    border: none;
+    background: #b63a2a;
+}
+
 .main .viewBox {
     width: 100%;
     float: left;
@@ -256,6 +274,11 @@
     line-height: 48px;
     width: 100%;
     color: #666666;
+}
+
+.left_nav .nav_tab li:hover a{
+    background: #dd3730;
+    color: #FFFFFF;
 }
 
 .nav_tab li:last-child{
@@ -284,91 +307,69 @@
 
 .pv_list li{
     width: 288px;
-    height: 200px;
+    height: 260px;
     display: inline-block;
     margin-right: 20px;
     position: relative;
     margin-bottom: 20px;
     overflow: hidden;
-    border-radius: 8px;
 }
 
-.pv_list li .po_title{
+.pv_list li .images_box{
     width: 288px;
-    height: 200px;
-    display: inline-block;
-    background: url(../images/shadowbg2.png) no-repeat;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 28px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
+    height: 180px;
+    overflow: hidden;
 }
 
-.pv_list2 li .po_title{
-    background: none;
+.images_box a img{
+    width: 110%;
+    height:110%;
+    top: -10px;
+    position: relative;
 }
 
-.pv_list li a img{
-    cursor: pointer;
-    transition-duration:1s;
+.pv_list li .info {
+    width: 288px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    color: #666;
 }
 
-.pv_list li a:hover img{
-    transition-timing-function:ease-out;
-    transform: scale(1.1);
+.info p{
+    line-height: 30px;
+    color: #666;
+    font-size: 14px;
 }
 
-
-.pv_list2 li .play {
-    background: url(../images/play.png) no-repeat;
-    width: 72px;
-    height: 72px;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    margin-left: -36px;
-    top: 60px;
-    cursor: pointer;
-}
-
-.pv_list2 .shadow{
-    box-sizing: border-box;
-    background: url(../images/shadowbg.png);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 38px;
+.info p .yjtt{
     font-size: 18px;
-    color: #FFFFFF;
-    padding:0 10px;
-    text-align: left;
+    color: #666;
 }
 
-.pv_list2 .shadow span{
-    float: right;
-    margin-left: 7px;
-    font-size: 16px;
+.info p .yjtt:hover{
+    color: rgba(78, 178, 253, 0.87);
 }
 
-.shadow .eye{
-    background: url(../images/icon.png) 0 -65px no-repeat;
-    height: 18px;
-    width: 18px;
+.info p .eye {
     display: inline-block;
-    margin: 4px -2px -4px 0;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 16px;
+    background: url(../images/icon.png) 0 -84px no-repeat;
 }
 
-.shadow .talk{
-    background: url(../images/icon.png) -24px -66px no-repeat;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-    margin: 4px -2px -4px 0;
+.info p span a{
+    color: #666;
 }
+
+.info p span a:hover{
+    color: rgba(78, 178, 253, 0.87);
+}
+
+
 /*换页功能*/
 .right_win .pageControl{
     width: 90%;

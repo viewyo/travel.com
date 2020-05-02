@@ -32,12 +32,12 @@
      }
 /*登陆注册*/
 .searchBox #search:hover{background-color:#cd150d;}
-    .search .loginBox{height:45px;margin-top:3px;float:right;position: relative;}
+    .search .loginBox{height:45px;margin-top:6px;float:right;position: relative;}
     .search .loginBox a{padding:0 12px 0 8px;color:#666;font-size: 13px;text-decoration: none}
     .search .loginBox a:hover{color:#dd3730;text-decoration:underline;}
 
 /* 导航条 */
-.topnav {overflow: hidden;margin-top: -15px;margin-left: 15px;}
+.topnav {overflow: hidden;margin-left: 15px;}
 .topnav a {float: right;display: block;color: #000000;text-align: center;padding: 5px 21px;text-decoration: none;}
 .topnav a:hover {background-color: #cd150d;color: #fcfffa;}
 .topnav .navMenu .index{background-color:#cd150d;}
