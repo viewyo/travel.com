@@ -22,20 +22,33 @@
 }
 
 /* 搜索框 */
-.top .header .search{width: 900px;height:68px;padding-top: 16px;}
+.top .header .search{
+    width: 900px;
+    height:68px;
+    padding-top: 16px;
+}
+
 .top .search .searchBox{
-    width: 350px;height: 32px;
+    width: 350px;
+    height: 30px;
     position: relative;
     padding: 0 35px 0 5px;
-    overflow:hidden;float: right;
+    overflow:hidden;
+    float: right;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
-    border-radius:2px;}
+    border-radius:2px;
+}
+
 .search .searchBox .put{
     border: 1px solid #dd3730;
-    display: flex;width:270px;height:30px;float: left;
+    display: flex;
+    width:270px;
+    height:30px;
+    float: left;
     padding: 0 25px 0 5px;
 }
+
 #search{
     display: inline-block;
     color: #fcfffa;
@@ -48,6 +61,7 @@
     position: absolute;
     right:19px;
 }
+
 /*登陆注册*/
 .searchBox #search:hover{
     background-color:#cd150d;

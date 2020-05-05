@@ -29,10 +29,12 @@
 }
 
 .top .search .searchBox{
-    width: 350px;height: 32px;
+    width: 350px;
+    height: 30px;
     position: relative;
     padding: 0 35px 0 5px;
-    overflow:hidden;float: right;
+    overflow:hidden;
+    float: right;
     -webkit-border-radius:2px;
     -moz-border-radius:2px;
     border-radius:2px;
@@ -40,7 +42,10 @@
 
 .search .searchBox .put{
     border: 1px solid #dd3730;
-    display: flex;width:270px;height:30px;float: left;
+    display: flex;
+    width:270px;
+    height:30px;
+    float: left;
     padding: 0 25px 0 5px;
 }
 
@@ -119,6 +124,7 @@
 .topnav .navMenu li{
     display: inline-block;
     font-size: 16px;
+    float: left; 
 }
 
 /*导航图*/
