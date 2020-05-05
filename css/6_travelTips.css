@@ -277,8 +277,8 @@
     border: 1px solid #e3e3e3;
 }
 
-.right_win .tableBox {
-    padding: 0 40px;
+.right_win .tabBox{
+    padding: 0 20px;
 }
 
 .tabBox th a {
@@ -291,11 +291,63 @@
      background: url(../images/weather_title.png) no-repeat;
 }
 
+.tabBox th{
+    width: 220px;
+}
+
+.tabBox th,.tabBox td{
+    line-height: 50px;
+}
+
+.tabBox  td .today{
+    color: #06b421;
+}
+
+.tabBox td .icon_weather{
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    top: 5px;
+    left: 10px;
+    width: 36px;
+    height: 24px;
+    background: url(../images/icon_weather.png) no-repeat;
+}
+
+.tabBox td .rain_icon{
+    background-position: 0 -67px;
+}
+
+.tabBox td .sonw_icon{
+    background-position: 0 -173px;
+}
+
+.jtxxUl .title .jtxxTitle {
+    display: inline-block;
+    width: 125px;
+    line-height: 30px;
+    padding-left: 12px;
+    color: #fff;
+    font-size: 18px;
+    background: url(../images/bg_title.png) no-repeat;
+    margin-bottom: 5px;
+}
+
+.jtxxUl .detail span{
+    color: #666;
+    line-height: 28px;
+
+}
+
+.jtxxUl .detail{
+    margin-bottom: 20px;
+}
+
 /*页脚*/
 .footer{
     width: 100%;
-    height: 100px;
-    padding: 35px 0;
+    height: 150px;
+    padding: 35px 0 50px;
     float: left;
 }
 

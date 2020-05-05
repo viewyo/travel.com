@@ -29,8 +29,7 @@
 }
 
 .top .search .searchBox{
-    width: 350px;
-    height: 32px;
+    width: 350px;height: 32px;
     position: relative;
     padding: 0 35px 0 5px;
     overflow:hidden;float: right;
@@ -41,11 +40,7 @@
 
 .search .searchBox .put{
     border: 1px solid #dd3730;
-    display: flex;
-    width:270px;
-    height:30px;
-    float: left;
-    outline:none;
+    display: flex;width:270px;height:30px;float: left;
     padding: 0 25px 0 5px;
 }
 
@@ -73,6 +68,7 @@
     float:right;
     position: relative;
 }
+
 .search .loginBox a{
     padding:0 12px 0 8px;
     color:#666;
@@ -98,6 +94,7 @@
     text-align: center;
     padding: 5px 21px;
 }
+
 .topnav a:hover {
     background-color: #cd150d;
     color: #fcfffa;
@@ -177,7 +174,6 @@
     line-height: 35px;
     font-weight: bold;
 }
-
 .content{
     width: 100%;
     padding-bottom: 30px;
@@ -222,205 +218,109 @@
     margin-right: 5px;
 }
 
-.main_title{
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
+.surveyBox{
+    width: 1000px;
+    float: left;
+    margin: 0 150px;
+}
+
+.surveyBox .sbt_t{
     margin: 20px 0;
-    padding-left: 10px;
-    color: #333;
-    font-size: 20px;
-    font-weight: bold;
-    border-left: 5px solid #dd3730;
-    float: left;
+    color: #666666;
 }
 
-.main .viewBox {
-    width: 100%;
-    float: left;
+.surveyBox .sur_t{
+    text-align: center;
+    font-size: 22px;
+    color: #666666;
+    margin: 50px 0 20px 0;
 }
 
-.viewBox .left_nav{
-    width: 240px;
-    float: left;
-}
-
-.viewBox .left_nav .nav_tab{
+.surveyBox table{
     border: 1px solid #e3e3e3;
 }
 
-.left_nav .nav_tab li {
-    height: 48px;
-    display: inline-block;
-    border-bottom: 1px solid #e3e3e3;
-    line-height: 48px;
-    width: 100%;
-    color: #666666;
+.surveyBox table td:not(:first-child){
+    padding-left: 45px;
 }
 
-.nav_tab li:last-child{
-    border-bottom: none;
-}
-
-.left_nav .nav_tab li a{
-    color: #666666;
-    display: block;
-    padding-left: 24px;
-}
-
-.left_nav .nav_tab .current{
-    background: #dd3730;
-}
-
-.left_nav .nav_tab .current a{
-    color: #ffffff;
-}
-
-.viewBox .right_win {
-    width: 936px;
-    margin-left: 264px;
-
-}
-
-.pv_list li{
-    width: 288px;
-    height: 200px;
-    display: inline-block;
-    margin-right: 20px;
-    position: relative;
-    margin-bottom: 20px;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.pv_list li .po_title{
-    width: 288px;
-    height: 200px;
-    display: inline-block;
-    background: url(../images/shadowbg2.png) no-repeat;
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 28px;
-    color: #fff;
-    line-height: 200px;
-    text-align: center;
-}
-
-.pv_list2 li .po_title{
-    background: none;
-}
-
-.pv_list li a img{
-    cursor: pointer;
-    transition-duration:1s;
-}
-
-.pv_list li a:hover img{
-    transition-timing-function:ease-out;
-    transform: scale(1.1);
-}
-
-
-.pv_list2 li .play {
-    background: url(../images/play.png) no-repeat;
-    width: 72px;
-    height: 72px;
-    display: inline-block;
-    position: absolute;
-    left: 50%;
-    margin-left: -36px;
-    top: 60px;
-    cursor: pointer;
-}
-
-.pv_list2 .shadow{
-    box-sizing: border-box;
-    background: url(../images/shadowbg.png);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 38px;
-    font-size: 18px;
-    color: #FFFFFF;
-    padding:0 10px;
-    text-align: left;
-}
-
-.pv_list2 .shadow span{
-    float: right;
-    margin-left: 7px;
-    font-size: 16px;
-}
-
-.shadow .eye{
-    background: url(../images/icon.png) 0 -65px no-repeat;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-    margin: 4px -2px -4px 0;
-}
-
-.shadow .talk{
-    background: url(../images/icon.png) -24px -66px no-repeat;
-    height: 18px;
-    width: 18px;
-    display: inline-block;
-    margin: 4px -2px -4px 0;
-}
-/*换页功能*/
-.right_win .pageControl{
-    width: 90%;
-    height: 40px;
-    float: left;
-    padding: 40px;
-}
-
-.right_win .pageControl ul {
-    width: 100%;
-    height: 40px;
-    float: right;
-}
-
-.pageControl ul li{
-    float: right;
+.surveyBox table th ,.surveyBox table td{
+    line-height: 53px;
+    padding-left: 20px;
     color: #666;
-    margin-left: 6px;
-    min-width: 36px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    border: 1px solid #cccccc;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 12px;
 }
 
-.pageControl .cur_Btn{
-    color: #FFFFFF;
-    background-color: #dd3730;
-}
 
-.pageControl .sure_Btn:hover {
-    background-color: #dd3730;
-    color: #FFFFFF;
-}
-
-.pageControl li:hover:not(.cur_Input){
-    color: #FFFFFF;
-    background-color: #dd3730;
-}
-
-.pageControl .cur_Input{
-    border: none;
-    font-size: 16px;
-    line-height: 31px;
-}
-
-.pageControl .cur_Input input{
-    height: 34px;
-    width: 50px;
-    border: 1px solid #cccccc;
+.surveyBox table input{
     outline: none;
-    font-size: 16px;
+    -webkit-appearance: none;
+    margin-left: 10px;
+}
+
+.radio_type{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    position: relative;
+}
+
+.radio_type:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 1px solid #7d7d7d;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio_type:checked:before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 1px solid #e54a44;
+    background:#e54a44;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.radio_type:checked:after{
+    content: '';
+    width: 10px;
+    height:5px;
+    border: 2px solid white;
+    border-top: transparent;
+    border-right: transparent;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 8.5px;
+    left:8px;
+    vertical-align: middle;
+    transform: rotate(-45deg);
+}
+
+.surveyBox .commit_but{
+    margin: 30px 0 20px 0;
+}
+
+.surveyBox .commit_but button{
+    margin:0 auto;
+    display:block;
+    text-align: center;
+    line-height: 32px;
+    width: 90px;
+    color: #ffffff;
+    border:none;
+    background-color: #e2514b;
+    outline:none;
+}
+
+.surveyBox .commit_but button:hover{
+    background-color: #bd4842;
 }
 
 /*页脚*/
